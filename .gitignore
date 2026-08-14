@@ -16,9 +16,16 @@ pythonenv*
 .env.*
 
 # Jupyter / notebooks
+# Keep notebook files tracked, but ignore notebook auto-saves/checkpoints
 .ipynb_checkpoints/
 *.ipynb_checkpoints
-*.ipynb
+
+# Ignore common Jupyter helper/cache outputs, but keep actual .ipynb files in the repo
+.jupyter/
+.jupyter_cache/
+
+# Optional: ignore notebook outputs if you prefer to keep repo clean
+# *.nbconvert.ipynb
 
 # IDE / OS files
 .vscode/

@@ -92,3 +92,7 @@ dist/
 # *.png
 # *.jpg
 # *.jpeg
+
+
+# Data
+*.csv

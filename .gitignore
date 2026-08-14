@@ -1,0 +1,87 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+pythonenv*
+
+# Environment files
+.env
+.env.*
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Data and dataset files
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# ML model artifacts and training outputs
+models/
+model/
+checkpoints/
+artifacts/
+mlruns/
+wandb/
+logs/
+results/
+output/
+weights/
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.joblib
+
+# Archives and temporary downloads
+*.zip
+*.tar
+*.gz
+*.tgz
+*.tar.gz
+*.tmp
+
+# Common package/build artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+.dist/
+build/
+dist/
+*.egg-info/
+
+# Optional: keep large images or plots untracked if you do not want them in Git
+# *.png
+# *.jpg
+# *.jpeg
